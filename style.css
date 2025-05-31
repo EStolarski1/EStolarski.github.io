@@ -1,0 +1,54 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #0b1d3a 0%, #142c54 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 180px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.button {
+  background-color: #e5b500;
+  color: #0b1d3a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  animation: fadeIn 3.5s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f1cb1f;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
