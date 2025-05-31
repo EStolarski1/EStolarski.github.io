@@ -2,22 +2,23 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'Outfit', sans-serif;
-  background: #f5f1ec;
+  background-color: #f5f1ec; /* soft cream background */
   color: #0b1d3a;
-}
-
-body {
-  background-image: url('logo.jpeg');
-  background-size: contain;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-top: 65vh;
-}
-
-.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 h1 {
